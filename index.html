@@ -209,7 +209,7 @@
 
                                     </div>
 
-                                    <p  class="text-center">
+                                    <p class="text-center">
                                         <a href="https://www.welcomeuruguay.com/piriapolis/aerosilla-san-antonio.html "
                                             target="_blank">Leer
                                             mas </a>
@@ -346,130 +346,136 @@
 
 
     <!-- SECTION BUSCAR ALOJAMIENTO -->
-    <section id="BuscarAlojamiento">
-        <div class="container-fluid row" id="divBuscar">
-            <h1><strong>Buscar alojamiento</strong></h1>
-            <div>
-                <div id="tableShadow" class="text-center">
-                    <table>
+    <section id="BuscarAlojamiento" class="row container-fluid">
+        <h1 class="col-12 text-center"><strong>Buscar alojamiento</strong></h1>
+        <div class="container-fluid row gap-5 justify-content-center align-items-center" id="divBuscar">
 
-                        <thead>
-                            <tr>
-                                <th>Hotel</th>
-                                <th>Temporada</th>
-                                <th>Disponible</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Argentino Hotel</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Hotel Colon</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Hotel Rivadavia</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Hosteria Miramar</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Hotel Lujan</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Gran Colonial Rivera</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>San Remo Terrazas</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                            <tr>
-                                <td>Select</td>
-                                <td>2022</td>
-                                <td>Abierto</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div id="tableShadow" class=" col-12 col-md-6 text-center">
+                <table id="table" class="">
+
+                    <thead>
+                        <tr>
+                            <th>Hotel</th>
+                            <th>Temporada</th>
+                            <th>Disponible</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Argentino Hotel</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel Colon</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel Rivadavia</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Hosteria Miramar</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Hotel Lujan</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Gran Colonial Rivera</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>San Remo Terrazas</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                        <tr>
+                            <td>Select</td>
+                            <td>2022</td>
+                            <td>Abierto</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
 
 
-                <form action="" method="get" autocomplete="off" enctype="multipart/form-data">
-                    <div>
-                        <fieldset>
-                            <label for='llegada'>Llegada *</label>
-                            <input type='datetime' id='llegada' placeholder="Agregar fecha" required>
-                            <label for='salida'>Salida *</label>
-                            <input type='datetime' id='salida' placeholder="Agregar fecha" required>
+            <form class="col-12 col-md-6" action="" method="get" autocomplete="off" enctype="multipart/form-data">
+                <div class="row gap-4">
+                    <div class="col-12">
+
+                        <fieldset class="row">
+                            <label for='llegada' class="col-6 ">Llegada *</label>
+                            <input type='datetime' class="col-5 bor" id='llegada' placeholder="Agregar fecha" required>
+                            <label for='salida' class="col-6 ">Salida *</label>
+                            <input type='datetime' class="col-5 bor" id='salida' placeholder="Agregar fecha" required>
                         </fieldset>
-                        <fieldset>
-                            <label for="radio1 radio2 radio3">Razon *</label>
-                            <input type="radio" id="radio1" name="rad" value="Ocio" checked>
-                            <label for="radio1">Ocio</label>
-                            <input type="radio" id="radio2" name="rad" value="Trabajo">
-                            <label for="radio2">Trabajo</label>
-                            <input type="radio" id="radio3" name="rad" value="Escape">
-                            <label for="radio3">Escape</label>
+                        <fieldset class="row align-items-center  padi" id="fieldFormMultiple">
+
+
+                            <label class="col-3" for="radio1 radio2 radio3">Razon *</label>
+                            <div class="col-3">
+                                <input class="" type="radio" id="radio1" name="rad" value="Ocio" checked>
+                                <label class="" for="radio1">Ocio</label>
+                            </div>
+                            <div class="col-3">
+                                <input class="" type="radio" id="radio2" name="rad" value="Trabajo">
+                                <label class="" for="radio2">Trabajo</label>
+                            </div>
+                            <div class="col-3">
+                                <input class="" type="radio" id="radio3" name="rad" value="Escape">
+                                <label class="" for="radio3">Escape</label>
+                            </div>
+
+
                         </fieldset>
+
+
                     </div>
-                    <div>
-                        <div>
-                            <label for="tipoAlojamiento">Tipo de alojamiento *</label>
-                            <select name="slc" id="tipoAlojamiento">
+                    <div class="col-12" id="divSelect">
+                        <div class="row align-items-center">
+                            <label for="tipoAlojamiento" class="col-6">Tipo de alojamiento *</label>
+                            <select name="slc" id="tipoAlojamiento" class="col-4 bor">
                                 <option disabled selected>- - - -</option>
                                 <option value="C">Compartido</option>
                                 <option value="I1">Individual</option>
                                 <option value="I2">Individual Suit Real</option>
                             </select>
-                            <input type='checkbox' id='chekb'>
-                            <label for='chekb'>Resultado flexibles</label>
+                            <input type='checkbox' id='chekb' class="col-2">
                         </div>
 
-                        <div>
-
-                            <input type="submit" value="Buscar">
+                        <div class="text-center ">
+                            <input type="submit" value="Buscar" id="btnSubm" class="bor" >
                         </div>
 
 
                     </div>
-                </form>
+
+                </div>
 
 
-
-
-
-            </div>
+            </form>
         </div>
-    </section>
 
 
-    <footer>
-        <div>
-            <h1>Seguinos!</h1>
-            <a href="https://www.facebook.com/guille.puppo/" target="_blank"><img src="img/iconos/facebook.png"
-                    alt="icono de facebook"></a>
-            <a href="https://www.instagram.com/guillepuppo/" target="_blank"><img src="img/iconos/instagram.png"
-                    alt="icono de instagram"></a>
-            <a href="https://walink.co/d30e85" target="_blank"><img src="img/iconos/whatsapp.png"
-                    alt="icono de whatsapp"></a>
+
 
 
 
 
         </div>
+    </section>
+
+
+    <footer class="text-center">
+        <h1>By Guillermo Puppo</h1>
     </footer>
 </body>
 <script src="js/bootstrap.bundle.js" type="text/JavaScript"></script>

@@ -352,14 +352,18 @@ margin-bottom: 1.5rem;
 
 /* SECTION LUGARES RECOMENDADOS */
 
-/* SECTION BUAR ALOJAMIENTO */
+/* SECTION BUSCAR ALOJAMIENTO */
 #BuscarAlojamiento{
     background-color: rgba(202, 135, 247, 0.199);
     padding-bottom: 2rem;
+    margin-left: 0;
+    padding-top: 1rem;
+    
    
 }
 #divBuscar{
     margin-left: 0px;
+    padding: 0;
 }
 #tableShadow{
     margin-top: 1.5rem;
@@ -372,5 +376,53 @@ form{
     background: white;
     padding: 10px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.336);
+    max-width: 20rem !important;
+    min-height: 16rem !important;
+    padding-top: 2.8rem;
+    border-radius: 10px;
 }
-/* SECTION BUAR ALOJAMIENTO */
+#tableShadow{
+    max-width: 20rem;
+    border-radius: 10px;
+}
+#table{
+  margin: auto;  
+}
+#table tr:target, #table tr:hover, #table tr:active{
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.336);
+
+}
+.padi{
+    padding-top: .5rem;
+}
+#fieldFormMultiple div{
+    padding: 0;
+}
+#btnSubm{
+    margin-top: 1rem;
+    padding: 4px;
+    background-image: linear-gradient(120deg, #e0c3fc8c 0%, #8ec5fc79 100%);
+
+}
+.bor{
+    border-radius: 10px;
+    border: rgba(128, 128, 128, 0.39) 1px solid;
+}
+
+@media screen and (min-width: 1024px){
+   form{
+        margin-left: 4rem;
+    }
+}
+/* SECTION BUSCAR ALOJAMIENTO */
+
+/* FOOTER */
+footer{
+    padding: 1rem;
+}
+
+
+
+
+
+/* FOOTER */
